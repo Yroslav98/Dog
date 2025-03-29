@@ -1,0 +1,98 @@
+.hero-section{
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 92px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url(../images/hero-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 82px;
+        right: 0;
+        left: -7%;
+        bottom: 0;
+        z-index: -10;
+        
+    }
+
+    &__container{
+        display: flex;
+        gap: 65px;
+    }
+
+    &__title{
+        max-width: 635px;
+        font-family: 'Rowdies',sans-serif;
+        line-height: 1.2;
+        font-weight: 400;
+        font-size: 72px;
+        margin-bottom: 40px;
+    }
+
+    &__text{
+        max-width: 415px;
+        margin-bottom: 24px;
+    }
+
+    &__image{
+        margin-top: 24px;
+        max-width: 506px;
+        max-height: 516px;
+    }
+
+    &__icon-spiral-arrow{
+        position: absolute;
+        top: 226px;
+        left: 552px;
+        fill: var(--color-primary-orange);
+    }
+
+    &__icon-paw-up{
+        position: absolute;
+        fill: rgb(217, 166, 255);
+        top: 352px;
+        right: 592px;
+    }
+
+    &__icon-paw-middle{
+        position: absolute;
+        fill: rgb(255, 110, 159);
+        bottom: 334px;
+        right: 40px;
+    }
+
+    &__icon-paw-bottom{
+        position: absolute;
+        fill: var(--color-primary-orange);
+        bottom: 144px;
+        right: 711px;
+    }
+
+    &__dog-circle-up, &__dog-circle-middle, &__dog-circle-bottom{
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+    }
+
+    &__dog-circle-up{
+        position: absolute;
+        top: 260px;
+        right: 487px;
+        transform: rotate(-16.06deg);
+    }
+    
+    &__dog-circle-middle{
+        position: absolute;
+        top: 360px;
+        right: 106px;
+    }
+
+    &__dog-circle-bottom{
+        position: absolute;
+        right: 721px;
+        bottom: 286px;
+        transform: rotate(-30.93deg);
+    }
+}

@@ -1,0 +1,76 @@
+.less-talk-section{
+    position: relative;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+        margin-top: 80px;
+        margin-bottom: 68px;
+    }
+
+    &__dog-base{
+        max-width: 755px;
+        max-height: 704px;
+    }
+
+    &__content{
+        max-width: 640px;
+        margin-top: 40px;
+    }
+
+    &__title{
+        margin-bottom: 40px;
+    }
+
+    &__text{
+        margin-bottom: 24px;
+    }
+
+    &__dog{
+        position: absolute;
+        top: 110px;
+    }
+
+    &__icon-paw-up{
+        position: absolute;
+        fill: rgb(131, 154, 169);
+        top: 8%;
+        left: 20%;
+    }
+
+    &__icon-paw-middle{
+        position: absolute;
+        fill: rgb(131, 154, 169);
+        top: 45%;
+        left: 38%;
+    }
+
+    &__icon-paw-bottom{
+        position: absolute;
+        fill: rgb(131, 154, 169);
+        transform: rotate(235deg);
+        top: 56%;
+        left: 12%;
+    }
+
+    &__icon-video{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        filter: none;
+        transition: transform .3s, filter .3s;
+
+        &:hover{
+            transform: scale(1.1);
+            filter: drop-shadow(-5px 5px 5px var(--color-hero-notes));
+            
+        }
+    }
+
+    &__icon-food{
+        position: absolute;
+        bottom: -42px;
+        left: 300px;
+        fill: var(--color-hero-notes);
+    }
+}

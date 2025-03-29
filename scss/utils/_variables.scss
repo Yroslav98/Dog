@@ -1,0 +1,15 @@
+:root{
+    --color-brand: rgb(255, 159, 14);
+    --color-primary-orange: rgb(252, 182, 42);
+    --color-primary-light: rgb(255, 255, 255);
+    --color-primary-dark: rgb(24, 24, 23);
+    --color-hero-notes: rgb(131, 154, 169);
+}
+/*desktop*/
+$bp-laptop: 1024px;
+
+/*tablet*/
+$bp-tablet: 768px;
+
+/*mobile*/
+$bp-mobile-L: 425px;

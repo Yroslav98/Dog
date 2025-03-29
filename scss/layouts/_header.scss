@@ -1,0 +1,44 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    margin-top: 32px;
+
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    &__menu{
+        display: flex;
+        gap: 48px;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon-and-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    &__basket-icon{
+        background: none;
+        border: none;
+        fill: var(--color-brand);
+        cursor: pointer;
+    }
+}

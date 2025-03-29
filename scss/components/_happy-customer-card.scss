@@ -1,0 +1,67 @@
+.happy-customer-card{
+    &__container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 456px;
+        border-radius: 24px;
+        overflow: hidden;
+    }
+
+    &__content{
+        background-color: var(--color-hero-notes);
+        padding: 16px 100%;
+    }
+
+    &__image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    &__title{
+        font-size: 24px;
+        line-height: 1.1;
+        font-weight: 600;
+        text-align: center;
+        color: var(--color-primary-light);
+        margin-bottom: 8px;
+    }
+
+    &__text, &__score{
+        font-size: 15px;
+        line-height: 1.1;
+        text-align: center;
+        color: var(--color-primary-light);
+        margin-bottom: 20px;
+    }
+
+    &__score{
+        color: var(--color-brand);
+        margin: 0;
+    }
+
+    &__icons{
+        display: flex;
+        gap: 42px;
+        align-items: center;
+    }
+
+    &__bone-icons{
+        display: flex;
+        gap: 8px;
+    }
+
+    &__icon-bone-brand{
+        fill: var(--color-brand);
+    }
+
+    &__icon-bone-greey{
+        fill: rgb(241, 243, 255);
+    }
+}
